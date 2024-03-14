@@ -55,8 +55,8 @@ Material:
     m_Floats:
     - _Blend: 0
     - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 1
-    - _DstBlendAlpha: 1
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
     - _EmissionEnabled: 1
     - _FlipbookBlending: 1
     - _FlipbookMode: 1
