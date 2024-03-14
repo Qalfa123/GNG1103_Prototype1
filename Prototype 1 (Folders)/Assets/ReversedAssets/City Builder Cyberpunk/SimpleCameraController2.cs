@@ -23,7 +23,8 @@ namespace UnityTemplateProjects
             {
                 pitch = t.eulerAngles.x;
                 yaw = t.eulerAngles.y;
-                roll = t.eulerAngles.z;
+
+                roll = t.eulerAngles.z + 1-1;
                 x = t.position.x;
                 y = t.position.y;
                 z = t.position.z;
