@@ -99,5 +99,5 @@ MonoBehaviour:
     serializedBakingSets: []
     m_LightingScenario: Default
   m_Version: 5
-  m_ShaderVariantLogLevel: 0
+  m_ShaderVariantLogLevel: 2
   m_ExportShaderVariants: 1
