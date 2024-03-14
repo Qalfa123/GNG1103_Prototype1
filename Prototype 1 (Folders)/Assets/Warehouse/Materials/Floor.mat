@@ -53,6 +53,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: b2f452ed8d463f44a87793527668f31c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e24019282eaf5304c98b7b536af17317, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 2800000, guid: 1eee49ca037936a409b73af0743e6823, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -66,7 +70,7 @@ Material:
     - _Mode: 0
     - _Smoothness: 0.5
     - _Surface: 0
-    - _UseColorMap: 0
+    - _UseColorMap: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
