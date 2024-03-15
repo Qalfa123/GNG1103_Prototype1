@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SNWP_MAT_11_2048
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 5b3908e25ad9b974fbdf448638eb4266, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_Parent: {fileID: 2100000, guid: 6c5d1729b34cf584bb98b0b2d15fd7a0, type: 2}
+  m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _EMISSION
   - _NORMALMAP
@@ -21,7 +21,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses:
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 029e7f48ea3ceb348926466fca5aec71, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -49,13 +49,17 @@ Material:
     m_Ints: []
     m_Floats:
     - _AORemapMin: 1
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
     - _Glossiness: 0.396
     - _Metallic: 1
     - _MetallicRemapMax: 1
     - _SmoothnessRemapMax: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     m_Colors:
-    - _BaseColor: {r: 0.47058803, g: 0.4583699, b: 0.44290647, a: 1}
-    - _Color: {r: 0.47058803, g: 0.45836985, b: 0.44290644, a: 1}
+    - _BaseColor: {r: 0.22352943, g: 0.22352943, b: 0.22352943, a: 1}
+    - _Color: {r: 0.2235294, g: 0.2235294, b: 0.2235294, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &4927107874759811436
