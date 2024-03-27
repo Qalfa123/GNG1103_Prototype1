@@ -7,18 +7,18 @@ public class InteractableData : MonoBehaviour
 {
     [TextArea]
     public string Subtitles;
-    public AudioSource SoundClip;
+    public AudioSource SoundSource;
     public SubtitleManager manager;
     public float getSubtitleDuration()
     {
-        return SoundClip.clip.length;
+        return SoundSource.clip.length;
     }
     // Start is called before the first frame update
     void Start()
     {
-      if(SoundClip == null)
+      if(SoundSource == null)
         {
-            SoundClip = GetComponent<AudioSource>();
+            SoundSource = GetComponent<AudioSource>();
         }
      if(manager == null)
         {
