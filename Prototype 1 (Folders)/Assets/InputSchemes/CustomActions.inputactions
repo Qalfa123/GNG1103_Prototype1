@@ -1,0 +1,85 @@
+{
+    "name": "CustomActions",
+    "maps": [
+        {
+            "name": "CustomMap",
+            "id": "9befaa65-1d94-4f5d-94b5-deed2f9c5e9a",
+            "actions": [
+                {
+                    "name": "MovementSteps",
+                    "type": "Button",
+                    "id": "49e0f531-2e8d-4364-80f8-ff9fc02b72ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StickMovement",
+                    "type": "Value",
+                    "id": "8948c069-7971-4a88-9089-3d34b1219c6c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d19af56c-cfa5-411d-a2b0-b504b0442784",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a430e4d-dc2d-4fb4-8124-2a2e91c47d90",
+                    "path": "<XRSimulatedController>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovementSteps",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f052bbfd-5012-4153-b06c-d07828c67362",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovementSteps",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e34430e0-f6bd-410d-bbde-e776a9c26dd2",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ac5a611-0295-4e0d-809f-5976b3a1bf08",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
