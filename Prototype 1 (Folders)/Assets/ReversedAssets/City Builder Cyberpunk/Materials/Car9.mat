@@ -41,7 +41,6 @@ Material:
   m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
-    RenderType: Transparent
   disabledShaderPasses:
   - MOTIONVECTORS
   - TransparentBackface
@@ -85,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Diffuse:
-        m_Texture: {fileID: 2800000, guid: b7aa1df70ab5eb94f8f59f48a2d9f0ff, type: 3}
+        m_Texture: {fileID: 2800000, guid: e167f8cd560cf0f4ebaf73a6a78b94cf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortionVectorMap:
@@ -163,8 +162,8 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_67F1F22: 1
-    - Boolean_971D4B5: 1
-    - Boolean_C98028B4: 1
+    - Boolean_971D4B5: 0
+    - Boolean_C98028B4: 0
     - Vector1_18F01C52: 4.9
     - Vector1_2B08F08D: 0
     - Vector1_38DE98FB: 1
@@ -172,7 +171,7 @@ Material:
     - Vector1_3C4C601B: 0.138
     - Vector1_5493A478: 40.08
     - Vector1_5519D8DF: 34.02
-    - Vector1_7F68F7FD: 0.002
+    - Vector1_7F68F7FD: 0.001
     - Vector1_8FB20341: 1.56
     - Vector1_D9CE8A89: 1
     - _AORemapMax: 1
@@ -263,7 +262,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _SSRefractionProjectionModel: 0
-    - _ScanlineSpeed: 0.438
+    - _ScanlineSpeed: 0.158
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -307,7 +306,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Color_506D2A45: {r: 1, g: 1, b: 1, a: 0}
-    - Color_CEDFCF9B: {r: 0.8977858, g: 0.64705884, b: 1, a: 0}
+    - Color_CEDFCF9B: {r: 0, g: 0.9699614, b: 1, a: 0}
     - Vector2_FE94CECE: {r: 640, g: 480, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
