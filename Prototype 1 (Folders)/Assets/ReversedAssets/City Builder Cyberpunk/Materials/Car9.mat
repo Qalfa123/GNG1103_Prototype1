@@ -306,7 +306,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Color_506D2A45: {r: 1, g: 1, b: 1, a: 0}
-    - Color_CEDFCF9B: {r: 0, g: 0.9699614, b: 1, a: 0}
+    - Color_CEDFCF9B: {r: 0.67550725, g: 0.8436119, b: 0.8490566, a: 0}
     - Vector2_FE94CECE: {r: 640, g: 480, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
