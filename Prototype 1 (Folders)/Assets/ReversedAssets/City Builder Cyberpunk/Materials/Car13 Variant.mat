@@ -47,10 +47,18 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 806e8a23ae44f214bba7ea1046c9e0c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - Boolean_C98028B4: 0
+    - Vector1_3C4C601B: 0.169
+    - Vector1_7F68F7FD: 0.001
+    m_Colors:
+    - Color_CEDFCF9B: {r: 1, g: 0.94642866, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4797611547739536544
 MonoBehaviour:
