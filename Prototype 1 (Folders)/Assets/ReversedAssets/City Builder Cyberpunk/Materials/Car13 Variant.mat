@@ -55,8 +55,9 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_C98028B4: 0
-    - Vector1_3C4C601B: 0.169
+    - Vector1_3C4C601B: 0.076
     - Vector1_7F68F7FD: 0.001
+    - _ScanlineSpeed: 0.126
     m_Colors:
     - Color_CEDFCF9B: {r: 1, g: 0.94642866, b: 0, a: 0}
   m_BuildTextureStacks: []
