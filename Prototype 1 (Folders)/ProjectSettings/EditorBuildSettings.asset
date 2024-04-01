@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: b67433b77e25622448d32ff4b240d814
+  - enabled: 1
+    path: Assets/ReversedAssets/City Builder Cyberpunk/Scenes/cyberpunk scene.unity
+    guid: cd81c6386d619624386081c5b97235b7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: caf31bad067de404d93aa160bd9723f5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ee5f735d37b27414b9928f626a8661bb, type: 2}
